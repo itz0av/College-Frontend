@@ -1,19 +1,19 @@
 import React from "react";
-import { useRef } from "react";
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
+// import { useRef } from "react";
+// import { useGSAP } from "@gsap/react";
+// import gsap from "gsap";
 import { ScrollToPlugin } from "gsap/all";
 import Card from "../Components/Card";
 const NewsSection = () => {
-  const boxRef = useRef();
+  // const boxRef = useRef();
 
   return (
     <div className="container h-screen w-[1280px]">
       <div className="flex items-center justify-center  mb-5">
-        <h2 className="text-4xl">News</h2>
+        <h2 className="text-4xl font-extrabold">News</h2>
       </div>
       <div className="container h-[78vh]  grid grid-cols-2 ">
-        <div className="bg-amber-400 grid-cols-1">
+        <div className="grid-cols-1">
           <div className="flex flex-col gap-2.5 p-6">
             <div className=" mb-3">
               <div className="relative h-[240px] w-full overflow-hidden rounded-md">
